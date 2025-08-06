@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Entornos y configuración sensible
+.env
+.env.local
+.env.*.local
+
+# Archivos de logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de cache
+.cache/
+.nyc_output/
+coverage/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Salidas de debug o temporales
+*.tmp
+*.swp
+*.swo
+
+# Archivos generados por pruebas o compilación
+dist/
+build/
+
+# Archivos de historial de sesiones de MongoDB (por si trabajas local)
+*.mongodb
+
+# Configuración de editores (opcional)
+.vscode/
+.idea/
+*.code-workspace
